@@ -1,2 +1,4 @@
 # How-to-programmatically-expand-a-nested-level-property-in-PropertyGrid
-Programmatically expand a nested level property in PropertyGrid
+This repository demonstrates how developers can manipulate the PropertyGrid control to automatically expand nested properties at runtime. This is particularly useful in scenarios where the user interface needs to expose deeper levels of object properties without requiring manual interaction from the user.
+In typical usage, the PropertyGrid control displays properties of an object in a hierarchical format. However, nested properties—such as those within complex objects or custom classes—are collapsed by default. This example shows how to use reflection and custom logic to traverse the object graph and expand specific nested levels programmatically.
+The solution involves identifying the PropertyDescriptor of the nested property and using the Expand method or similar techniques to ensure that the UI reflects the expanded state. This can be integrated into form initialization or triggered by user actions.
